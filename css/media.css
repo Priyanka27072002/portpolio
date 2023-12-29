@@ -1,0 +1,269 @@
+/*burger section*/
+
+@media(max-width:960px){
+    #burger{
+        display: block;
+    }
+    .burger-head{
+        display: none;
+        position: static;
+    }
+     .bug-head:hover .head{
+        display: block;
+     }
+    .head{
+        display: none;
+    }
+    
+    
+}
+@media(min-width:1000px){
+    #burger{
+        display: none;
+    }
+    .burger-head{
+        display:block;
+        position:fixed;
+    }
+    .head{
+        display: block;
+        display: flex;
+    }
+}
+
+
+
+/*mobile*/
+@media(min-width:320px){
+                /*banner-section*/
+    
+    .home-section{
+        width: 100%;
+        border-radius: 0px;
+    }
+                /*education-section*/
+    
+    .edu-row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .edu-col{
+        width:100%;
+    }
+    .edu-col-2{
+        width:100%;
+    }
+        /* about-section*/
+    
+    .abo-row{
+        width:100%;
+        flex-wrap: wrap;
+    }
+    .abo-col-1{
+        width:100%;
+    }
+    .abo-col-2{
+        width:100%;
+    }
+            /*creation-section*/
+    
+    .creat-col{
+        width: 100%;
+    }
+    .creat-image img{
+        height: 200px;
+        width: 300px;
+    }
+            /*contact-section*/
+    
+    .cont-form-col{
+        width:100%;
+    }
+    .cont-col-1,.cont-col-2,.cont-col-3,.cont-col-4{
+        width:50%;
+        
+    }
+    .contact-col{
+        width:100%;
+        }
+    .cont-row{
+            width:100%;
+        }
+    .form-name input{
+            width: 100%;
+        }
+        .form-name{
+            width:100%;
+        }
+        .form-button{
+            width:100%;
+            margin:auto;
+        }
+
+            /*footer-section*/
+
+       
+        .foot-row{
+            padding-top: 10%;
+            padding-left: 10%;
+        }
+        .foot-col{
+            padding-left: 40%;
+        }
+}
+/*ipad*/
+@media(min-width:660px){
+            /*bannner-section*/
+   
+            /*education-section*/
+    #education{
+        
+        background-position:center;
+    }
+    .edu-row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .edu-col{
+        width:60%;
+        }
+        .edu-col-2{
+            width:100%;
+        }
+            /*about-section*/
+            #about{
+                padding-left: 0;
+            }
+            .abo-row{
+                width:100%;
+                flex-wrap: wrap;
+            }
+            .abo-col-1{
+                width:100%;
+            }
+            .abo-col-2{
+                width:100%;
+            }
+            /*creation section*/
+            
+            .creat-col{
+                width: 50%;
+            }
+            .creat-image img{
+                height: 200px;
+                width: 300px;
+            }
+            /*contact-section*/
+            .cont-form-col{
+                width:100%;
+                display:flex;
+                flex-wrap:wrap;
+            }
+            .cont-col-1,.cont-col-2,.cont-col-3,.cont-col-4{
+                width:100%;
+                
+            }
+            .contact-col{
+                width:55%;
+                }
+                .cont-row{
+                    width:100%;
+                    display:flex;
+                }
+                .form-name input{
+                    width: 100%;
+                }
+                .form-name{
+                    width:50%;
+                }
+                /*footer-section*/
+                .foot-row{
+                    padding-top: 5%;
+                    padding-left: 35%;
+                }
+                .foot-col{
+                    padding-left: 20%;
+                }
+}
+/*laptop*/
+@media(min-width:1000px){
+   
+            /*banner-section*/
+    
+    .home-section{
+        width: 80%;
+        margin: auto;
+        border-radius: 10px;
+    }
+            /*education-section*/
+    
+    .edu-row{
+        display: flex;
+    }
+    .edu-col{
+        width:40%;
+    }
+    .edu-col-2{
+        width:60%;
+    }
+            /*about-section*/
+    
+    .abo-row{
+        display: flex;
+        width:100%;
+        
+    }
+    .abo-col-1{
+        width:40%;
+    }
+    .abo-col-2{
+        width:60%;
+    }
+            /*creation-section*/
+    
+    .creat-col{
+        width: 50%;
+    }
+    .creat-image img{
+        height: 200px;
+        width: 400px;
+    }
+            /*contact-section*/
+   
+    .cont-form-col{
+        width:100%;
+        display:flex;
+        flex-wrap:wrap;
+    }
+    .cont-col-1,.cont-col-2,.cont-col-3,.cont-col-4{
+        width:100%;
+        
+    }
+    .contact-col{
+        width:55%;
+        }
+        .cont-row{
+            width:100%;
+            display:flex;
+        }
+        .form-name input{
+            width: 100%;
+        }
+        .form-name{
+            width:50%;
+        }
+        .form-button{
+            width:30%;
+            margin:auto;
+        }
+        /*footer-section*/
+
+        
+        .foot-row{
+            padding-top: 5%;
+            padding-left: 35%;
+        }
+        .foot-col{
+            padding-left: 20%;
+        }
+}
